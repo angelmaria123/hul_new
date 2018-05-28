@@ -1,0 +1,496 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #666666;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+    line-height: 22px;
+    }
+img{
+    max-width: 100%;
+    height: auto;
+}
+.topbar{
+    background-color: #191d1d;
+    color:#999;
+    font-size:12px;
+    text-align: center;
+    line-height: 25px;
+}
+.topbar_wrap{
+    max-width: 1200px;
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    width: 88.25%;
+}
+.top_links{
+     float:left;
+}
+ul.toplinks_list {
+    margin: 0;
+    padding: 0;
+}
+li.list_item{
+    list-style: none;
+    display:inline-block;
+    margin: 0 17px;
+    padding:0;
+}
+.list_item a{
+    display: inline-block;
+    text-decoration: none;
+    color:#ccc;
+
+}
+.account_sec{
+    float:right;
+}
+.user_name .user {
+    color: #fff;
+    background: url(../images/Homepage_03.jpg) no-repeat left center;
+    padding-left: 25px;
+}
+.user_details {
+    display: none;
+}
+ul.user_links li a {
+    text-decoration: none;
+}
+
+ul.user_links li {
+    margin: 0;
+    list-style: none;
+    line-height: 25px;
+    padding: 5px 10px;
+}
+ul.user_links {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+
+span.arrow {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+span.arrow:before {
+       content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top: 5px solid #fff;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -1px;
+    margin-left: -5px;
+}
+.header_bar{
+    width: 88.25%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+   
+
+}
+.logo_sec{
+    float:left;
+    width:19.14%;
+}
+a.logo_anchor{
+    display:block;
+}
+a.logo_anchor img{
+    width:100%;
+}
+.form_sec{
+    
+    float: right;
+    width: 76.5%;
+    margin-top: 26px;
+    line-height: 1;
+
+}
+.search_sec{
+    float:left;
+    width: 75.3%;
+}
+.search_area{
+    float:left;
+    width: 86%;
+}
+input.search_input{
+    background-color: #fff;
+    color:#a59f9e;
+    font-size: 16px;
+    width: 100%;
+    line-height: 36px;
+    border: 1px solid #ccc;
+    text-indent: 11px;
+}
+input.search_button{
+     float: left;
+    background: url(../images/Homepage_10.jpg) no-repeat center 3px #f2132c;
+    color: #fff;
+    background-size: 80%;
+    padding: 0;
+    text-indent: -999em;
+    width: 14%;
+    line-height: 40px;
+    border: 0;
+}
+.catalog_sec{
+    float: right;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: url(../images/Homepage_13.jpg) no-repeat left center;
+    color: #000;
+    font-weight: 750;
+    padding-left: 31px;
+    position: relative;
+    line-height: 26px;
+}
+.catalog_sec:before {
+   content: "";
+    width: 100%;
+    height: 3px;
+    background: #333;
+    position: absolute;
+    bottom: 1px;
+    right: -32px;}
+ p.export_text {
+    float: right;
+    margin:0;
+    padding:0;
+    color: #8E8E8E;
+    font-size: 10px;
+
+}
+.nav_bar{
+    background-color:#1284c6;
+    color:#fff;
+    font-size:15px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+}
+.navbar_wrap{
+    max-width: 1200px;
+    width: 88.25%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.nav_links{
+    float: left
+}
+ul.navlinks_list{
+    margin:0;
+    padding: 0;
+    display: inline-block;
+    height: 40px;
+}
+li.navlinks_items{
+    list-style: none;
+    display: inline-block;
+    margin:0 17px;
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+  
+  }
+li.navlinks_items a{
+    text-decoration: none;
+    display: inline-block;
+    color:#fff;
+    height: 40px;
+    line-height: 31px;
+    border-top: 5px solid transparent;
+    
+}
+
+.navlinks_items a.active{
+    border-top: solid 5px #fa4c60;
+    background-color: #fff;
+    color: #333;
+    width: 90px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.category_part{
+    width: 215px;
+    float: right;
+    line-height: 2.5em;
+    text-align: center;
+    background-color: #006699;
+    height: 40px;
+}
+  
+.category_links {
+    width: 100%;
+    color: #fff;
+}
+.cate_list{
+    width:76.8%;
+    
+}
+
+span.cate_list {
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    padding: 9px;
+    border-right:1px solid #0a4a6f;
+}
+span.cate_arrow {
+    position: relative;
+    width: 23.2%;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    
+    
+}
+span.cate_arrow:before {
+    content: "";
+    
+    display: inline-block;
+    border: 10px solid transparent;
+    border-top: 10px solid #fff;
+    border-bottom: 2px;
+    vertical-align: middle;
+ }
+
+
+ .content_area{
+    width:100%;
+    padding-top:45px;
+    }
+
+
+.content{
+    width:88.25%;
+    max-width: 1200px;
+    margin:0 auto;
+    overflow: hidden;
+
+   }
+.left_content{
+    width:21.4%;
+    float:left;
+   }
+.right_content{
+    width: 78.6%;
+    float:right;
+   }
+.hair_sec{
+    padding:0 15px;
+}
+.list1_area {
+    line-height: 15px;
+    border: 1px solid #cccccc;
+    border-top: 5px solid #cccccc;
+    width: 100%;
+    margin-bottom: 20px;
+} 
+.container {
+    display: block;
+    font-size: 13px;
+    line-height: 15px;
+    padding: 8.5 10;
+}
+    
+.container input {
+    display: none;
+    position: absolute;
+}
+span.checkmark {
+    display: inline-block;
+    float: left;
+    height: 11px;
+    width: 11px;
+    border: 2px solid #cccccc;
+    margin-right: 9px;
+}
+.container input:checked ~ .checkmark {
+    background-color:#0099cc;
+}
+.checkmark:after {
+    content: "";
+ 
+    display: none;
+}
+.brand_sec{
+    padding: 0 15px;
+}
+.list2_area {
+    line-height: 16px;
+    border: 1px solid #cccccc;
+    border-top: 5px solid #cccccc;
+    width: 100%;
+    margin-bottom: 20px;
+    }
+.productmix_sec{
+    padding:0 15px;
+}
+.list3_area {
+    line-height: 16px;
+    border: 1px solid #cccccc;
+    border-top: 5px solid #cccccc;
+    width: 100%;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 18px;
+    color:#006699;
+    padding-left: 10px;
+}
+
+div#columns {
+    overflow: hidden;
+}
+.heads_1 {
+    margin-bottom: 28px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.left_head1{
+
+    float:left;
+}
+.right_head1 {
+
+    float:right;
+}
+
+#first_text{
+    font-size: 24px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+#secondText{
+    font-size: 14px;
+    color:666666;
+}
+figure {
+    border: 1px solid #fff;
+    position: relative;
+    width: 31%;
+    float:left;
+    margin: 0 0.5%;
+}
+label.container_2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+.container_2 input.checkbox {
+    display: none;
+}
+
+span.checkmark_2 {
+    border: 2px solid #ccc;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.container_2 input:checked ~ .checkmark_2 {
+    background-color:#0099cc;
+}
+figure img {
+    margin-bottom: 19px;
+}
+.img_text {
+    margin-bottom: 19px;
+    text-align: left;
+    padding: 0 20px;
+}
+figcaption {
+    font-size: 20;
+    line-height: 15px;
+    margin-bottom: 13px;
+    color: #333333;
+    font-weight: 600;
+}
+.img_text p {
+    line-height: 19px;
+    margin: 0;
+}
+a.button {
+    text-decoration: none;
+    display: inline-block;
+    background: #fff;
+    color: #ccc;
+    font-size: 15px;
+    padding: 12 22px;
+    margin-top: 15px;
+    border: 1px solid #ccc; 
+}
+a.clicked_button {
+    text-decoration: none;
+    display: inline-block;
+    background: #ff3333;
+    color: #ccc;
+    font-size: 15px;
+    padding: 12 22px;
+    margin-top: 15px;
+    border: 1px solid #ccc; 
+}
+figure:hover{
+    box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.3);
+}
+#grids{
+    margin-bottom: 28px;
+
+}
+.grid_1{
+    border-bottom: 2px solid #999;
+    }
+.grid_1:last-child{
+    border: 0;
+}
+label.container_1 {
+    display: block;
+    font-size: 13px;
+}
+
+.container_1 input {
+    display: none;
+}
+
+.checkmark_1 {
+    border: 2px solid #ccc;
+    width: 11px;
+    height: 11px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 5px;
+    
+}
+.container_1 input:checked ~ .checkmark_1 {
+    background-color:#0099cc;
+}
+.clear:before, .clear:after{
+    content: '';
+    display: table;
+}
+.clear:after{
+    clear: both;
+}
